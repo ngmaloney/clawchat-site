@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ClawChat — Desktop Chat for OpenClaw</title>
-  <meta name="description" content="A beautiful, native desktop chat client for OpenClaw. Session management, markdown rendering, file attachments — privacy-first messaging for humans and agents.">
+  <meta name="description" content="Simple desktop client for remote OpenClaw gateways. No Node.js, no npm, no complexity. Download and connect in seconds. Cross-platform: Mac, Windows, Linux.">
   <meta name="theme-color" content="#0a0e27">
-  <meta property="og:title" content="ClawChat — Desktop Chat for OpenClaw">
-  <meta property="og:description" content="A beautiful, native desktop chat client for OpenClaw. Privacy-first, air-gapped capable, self-hosted.">
+  <meta property="og:title" content="ClawChat — Simple Desktop Client for OpenClaw">
+  <meta property="og:description" content="Connect to your remote OpenClaw gateway without installing Node.js. Clean desktop app for chatting with AI agents. Cross-platform and privacy-first.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://clawchat.dev">
   <meta property="og:image" content="https://clawchat.dev/clawchat-icon.png">
@@ -613,8 +613,8 @@
 <section class="hero">
   <div class="container">
     <img src="/clawchat-icon.png" alt="ClawChat Logo" class="hero-logo reveal reveal-delay-1" width="100" height="100">
-    <h1 class="reveal reveal-delay-1">Desktop Chat for <span class="accent">OpenClaw</span></h1>
-    <p class="reveal reveal-delay-2">A beautiful, native desktop client for OpenClaw messaging. Session management, markdown rendering, file attachments — privacy-first chat that works anywhere, even air-gapped.</p>
+    <h1 class="reveal reveal-delay-1">Simple Desktop Client for <span class="accent">OpenClaw</span></h1>
+    <p class="reveal reveal-delay-2">Connect to your remote OpenClaw gateway without installing Node.js or npm. No complexity, no gateway management — just a clean desktop app for chatting with your AI agents.</p>
     
     <div class="reveal reveal-delay-3">
       <div class="platform-grid">
@@ -650,13 +650,67 @@
   </div>
 </section>
 
+<!-- Why ClawChat Section -->
+<section class="stats" style="padding: 100px 0;">
+  <div class="container">
+    <div class="reveal" style="text-align:center; margin-bottom: 60px;">
+      <p class="section-label">Why ClawChat?</p>
+      <h2 class="section-title">Designed for remote gateway users</h2>
+      <p class="section-subtitle" style="margin: 0 auto;">No Node.js. No npm. No gateway installation. Just a simple desktop app.</p>
+    </div>
+    
+    <div style="max-width: 900px; margin: 0 auto;">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-bottom: 60px;">
+        <div style="padding: 32px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);" class="reveal">
+          <h3 style="font-size: 20px; font-weight: 700; color: var(--text-primary); margin-bottom: 12px; display: flex; align-items: center; gap: 12px;">
+            <span style="font-size: 28px;">🍎</span> OpenClaw macOS App
+          </h3>
+          <p style="color: var(--text-secondary); margin-bottom: 16px; font-size: 14px;">Official native app — great for running the gateway locally</p>
+          <ul style="list-style: none; font-size: 14px; color: var(--text-muted); line-height: 2; padding-left: 0;">
+            <li>✅ Native macOS integrations</li>
+            <li>✅ Manages gateway lifecycle</li>
+            <li>✅ Full TCC permissions</li>
+            <li style="color: var(--text-secondary); font-weight: 600; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border);">❌ Requires Node.js + npm install</li>
+            <li style="color: var(--text-secondary); font-weight: 600;">❌ Complex setup for remote use</li>
+            <li style="color: var(--text-secondary); font-weight: 600;">❌ macOS only</li>
+          </ul>
+        </div>
+        
+        <div style="padding: 32px; background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-card-hover) 100%); border: 2px solid var(--accent); border-radius: var(--radius); box-shadow: 0 0 40px var(--accent-glow-strong);" class="reveal reveal-delay-1">
+          <h3 style="font-size: 20px; font-weight: 700; color: var(--text-primary); margin-bottom: 12px; display: flex; align-items: center; gap: 12px;">
+            <span style="font-size: 28px;">🦀</span> ClawChat
+          </h3>
+          <p style="color: var(--accent-light); margin-bottom: 16px; font-size: 14px; font-weight: 600;">Simple desktop client for remote gateways</p>
+          <ul style="list-style: none; font-size: 14px; color: var(--text-secondary); line-height: 2; padding-left: 0;">
+            <li>✅ Simple DMG/installer — no Node.js needed</li>
+            <li>✅ Connect to remote gateway in seconds</li>
+            <li>✅ Cross-platform (Mac/Windows/Linux)</li>
+            <li>✅ No gateway management complexity</li>
+            <li>✅ Perfect for SSH/Tailscale setups</li>
+            <li>✅ Open source & customizable</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div style="text-align: center; padding: 40px; background: var(--accent-glow); border-radius: var(--radius); border: 1px solid rgba(249,115,22,0.2);" class="reveal reveal-delay-2">
+        <p style="font-size: 16px; color: var(--text-primary); margin-bottom: 16px;">
+          <strong>Use Case:</strong> You run OpenClaw gateway on a server (Linux/Mac) and want a simple desktop app to connect from your laptop — without installing Node, npm, or the full OpenClaw stack.
+        </p>
+        <p style="font-size: 14px; color: var(--text-secondary);">
+          <strong>That's ClawChat.</strong> Download → Connect → Chat. 🦀
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- Stats -->
-<section class="stats">
+<section class="stats" style="padding: 60px 0;">
   <div class="container">
     <div class="stats-grid">
       <div class="stat-item reveal">
-        <h3>Native</h3>
-        <p>Cross-Platform App</p>
+        <h3>0</h3>
+        <p>Dependencies Required</p>
       </div>
       <div class="stat-item reveal reveal-delay-1">
         <h3>∞</h3>
@@ -667,8 +721,8 @@
         <p>Privacy-First Design</p>
       </div>
       <div class="stat-item reveal reveal-delay-3">
-        <h3>✈️</h3>
-        <p>Air-Gapped Capable</p>
+        <h3>3</h3>
+        <p>Platforms Supported</p>
       </div>
     </div>
   </div>
