@@ -201,7 +201,7 @@
       color: #ffffff;
       transition: color 0.2s;
     }
-    .nav-links a:hover { color: var(--accent-light); }
+    .nav-links a:hover, .nav-links a.active { color: var(--accent-light); }
     .nav-cta {
       padding: 10px 20px !important;
       font-size: 14px !important;
@@ -600,8 +600,7 @@
       <span>Claw<span style="color: var(--accent)">Chat</span></span>
     </a>
     <ul class="nav-links" id="navLinks">
-      <li><a href="#features">Features</a></li>
-      <li><a href="#privacy">Privacy</a></li>
+      <li><a href="/" class="active">Desktop</a></li>
       <li><a href="/cli.html">CLI</a></li>
       <li><a href="https://github.com/ngmaloney/clawchat">GitHub</a></li>
       <li><a href="https://github.com/ngmaloney/clawchat/releases" class="btn btn-primary nav-cta">Download</a></li>
