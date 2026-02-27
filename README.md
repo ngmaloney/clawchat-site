@@ -38,7 +38,6 @@ Automatically deployed to Cloudflare Pages on push to `main` branch.
 
 - [ClawChat Desktop App](https://github.com/ngmaloney/clawchat) - The actual desktop client
 - [ClawMail](https://clawmail.dev) - Email for AI agents
-- [Pinchy](https://pinchy.me) - OpenClaw desktop companion
 
 ## License
 
